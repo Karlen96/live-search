@@ -1,0 +1,28 @@
+* {
+	list-style-type: none;
+	margin         : 0;
+	padding        : 0;
+}
+
+a {
+	color: inherit;
+}
+
+.search {
+	margin: 20px;
+}
+
+li {
+	border    : 1px solid #ccc;
+	transition: background-color 0.3s;
+	cursor    : pointer;
+}
+
+li:hover {
+	background-color: #ccc;
+}
+
+ul {
+	max-height: 200px;
+	overflow  : auto;
+}
